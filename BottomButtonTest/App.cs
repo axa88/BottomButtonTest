@@ -14,7 +14,7 @@ namespace BottomButtonTest
 		private async Task GoToContentPage()
 		{
 			var actionButton = new Button { BackgroundColor = Color.Orange };
-			AbsoluteLayout.SetLayoutBounds(actionButton, new Rectangle(75, 268, 210, 92));
+			//AbsoluteLayout.SetLayoutBounds(actionButton, new Rectangle(0, 150, 150, 100));
 			actionButton.On<Xamarin.Forms.PlatformConfiguration.Tizen>().SetStyle(ButtonStyle.Bottom);
 			actionButton.Clicked += async (sender, args) =>
 			{
